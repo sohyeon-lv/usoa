@@ -21,11 +21,13 @@ html, body {
 
 body {
   font-family:
-    "Times New Roman",
-    "Noto Serif KR",
+    "Pretendard",
+    "Noto Sans KR",
     "Apple SD Gothic Neo",
     "Malgun Gothic",
-    serif;
+    "Segoe UI",
+    Arial,
+    sans-serif;
 }
 
 button,
@@ -547,12 +549,19 @@ body.archive {
   }
 }
 
-.brand-link {
+.site-header .brand-link,
+.site-header .brand-link:visited,
+.site-header .brand-link:hover,
+.site-header .brand-link:active {
   color: inherit;
   text-decoration: none;
 }
 
-.brand-link:hover,
-.brand-link:focus-visible {
+.site-header--archive .brand-link {
+  color: var(--archive-text);
+}
+
+.site-header--archive .brand-link:hover,
+.site-header--archive .brand-link:focus-visible {
   opacity: 0.9;
 }
