@@ -80,69 +80,19 @@ body.home.bg-active .home-bg {
 }
 
 body.home.bg-2023 .home-bg {
-  background-image:
-    radial-gradient(circle at 40% 28%, rgba(255,255,255,0.16), transparent 20%),
-    linear-gradient(180deg, rgba(235,235,235,0.24), rgba(20,20,20,0.82)),
-    repeating-linear-gradient(
-      90deg,
-      rgba(255,255,255,0.04) 0px,
-      rgba(255,255,255,0.04) 1px,
-      transparent 1px,
-      transparent 120px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      rgba(255,255,255,0.03) 0px,
-      rgba(255,255,255,0.03) 1px,
-      transparent 1px,
-      transparent 120px
-    ),
-    radial-gradient(circle at 52% 42%, rgba(20,20,20,0.2), rgba(0,0,0,0.92));
+  background-image: url("2023.jpg");
 }
 
 body.home.bg-2024 .home-bg {
-  background-image:
-    radial-gradient(circle at 53% 36%, rgba(255,255,255,0.16), transparent 16%),
-    linear-gradient(180deg, rgba(120,120,120,0.18), rgba(18,18,18,0.85)),
-    radial-gradient(circle at 30% 65%, rgba(255,255,255,0.08), transparent 24%),
-    linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 45%, transparent 45%, transparent 100%),
-    radial-gradient(circle at 52% 42%, rgba(70,70,70,0.15), rgba(0,0,0,0.95));
+  background-image: url("2024.jpg");
 }
 
 body.home.bg-2025 .home-bg {
-  background-image:
-    radial-gradient(circle at 50% 30%, rgba(255,255,255,0.13), transparent 16%),
-    linear-gradient(180deg, rgba(245,245,245,0.08), rgba(25,25,25,0.82)),
-    repeating-linear-gradient(
-      90deg,
-      rgba(255,255,255,0.05) 0px,
-      rgba(255,255,255,0.05) 1px,
-      transparent 1px,
-      transparent 80px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      rgba(255,255,255,0.025) 0px,
-      rgba(255,255,255,0.025) 1px,
-      transparent 1px,
-      transparent 80px
-    ),
-    radial-gradient(circle at center, rgba(120,120,120,0.09), rgba(0,0,0,0.94));
+  background-image: url("2025.jpg");
 }
 
 body.home.bg-2026 .home-bg {
-  background-image:
-    radial-gradient(circle at 50% 34%, rgba(0,163,107,0.22), transparent 18%),
-    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(0,0,0,0.82)),
-    radial-gradient(circle at 50% 55%, rgba(0,163,107,0.11), transparent 24%),
-    repeating-linear-gradient(
-      90deg,
-      rgba(255,255,255,0.03) 0px,
-      rgba(255,255,255,0.03) 1px,
-      transparent 1px,
-      transparent 140px
-    ),
-    radial-gradient(circle at center, rgba(10,40,25,0.36), rgba(0,0,0,0.95));
+  background-image: url("2026.jpg");
 }
 
 .site-header {
